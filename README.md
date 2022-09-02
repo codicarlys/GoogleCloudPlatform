@@ -4,7 +4,7 @@ Repository with Google Cloud Solutions
 Dataflow
 A solution to read data from oracle database a write to Cloud Storage as Avro file
 
-## Hou to create a dataflow template
+## How to create a dataflow template
 To create a template after you clone the repository go to the dataflow folder
 cd dataflow/
 
