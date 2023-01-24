@@ -27,7 +27,7 @@ gcloud functions deploy fnc_zip_file_128mb \
 functions-framework --target main --debug
 
 # TEST
-curl --data '{"gcs_input": "gs://banco-bv-sandbox/test/input_bv/github_repos_files","gcs_output": "gs://banco-bv-sandbox/test/output", "filename":"github_repos_files"}'  \
+curl --data '{"gcs_input": "<bucket>/<input_path>/github_repos_files","gcs_output": "<bucket><output>", "filename":"github_repos_files"}'  \
   --header "Content-Type: application/json" \
   --header "Accept: application/json" <url> &
 
